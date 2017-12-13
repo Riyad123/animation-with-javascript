@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+      <p>
+<button onclick="walk()">start</button>
+<button onclick="wal()">stop</button>
+
+</p> 
+
+<div id ="container">
+    <div id="moving"><div id="animate"></div>
+</div></div>
+
+<script>
+  function walk(){
+        animate.style.animation="walk .80s steps(8) infinite";
+       moving.style.animation="move 12s linear infinite";
+    }
+    function wal(){
+        animate.style.animation="";
+        moving.style.animation="";
+    }
+
+</script>
+  </body>
+</html>

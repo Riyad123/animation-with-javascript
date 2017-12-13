@@ -1,0 +1,25 @@
+#container {
+  width: 1280px;
+  height: 800px;
+  position: relative;
+  background: #e7ffe3;
+}
+#moving{
+    width:59px;
+    height:88px;
+    position:absolute;
+}
+@keyframes move{
+    from{transform: translate(0px)}
+    to{transform: translate(1200px)}
+}
+#animate {
+  width:58px;
+  height:87px;
+  position: absolute;
+  background: url(8.png);
+}
+   @keyframes walk{
+    from{background-position:0px;} 
+    to{background-position:-464px;}
+    }
